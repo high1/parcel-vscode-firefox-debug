@@ -13,7 +13,17 @@
             "pathMappings": [{
                 "url": "http://localhost:1234",
                 "path": "${workspaceFolder}"
-            }]
+            }],
+            "log": {
+                "fileName": "${workspaceFolder}/log.txt",
+                "fileLevel": {
+                    "default": "Debug"
+                },
+                "consoleLevel": {
+                    "PathConversion": "Debug",
+                    "default": "Error"
+                }
+            }
         },
     ]
 }
